@@ -1,0 +1,29 @@
+
+.header2{
+    background-color: rgb(15, 13, 34);
+    padding: 1px 1px 2px 2px;
+    color: #f0f0c3;
+}
+
+#hName{
+    text-align: center;
+    color: rgb(193, 146, 27);
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 1px 1px 1px #e7e77a;
+}
+
+table{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+td{
+    margin: auto;
+    padding-left: 15px;
+    font-size: 11px;
+
+}
+.header2.i{    
+    font-size: 12px;
+}
