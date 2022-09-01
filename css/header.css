@@ -1,29 +1,108 @@
-
-.header2{
-    background-color: rgb(15, 13, 34);
-    padding: 1px 1px 2px 2px;
-    color: #f0f0c3;
+body{
+    margin: 0;
 }
 
 #hName{
     text-align: center;
-    color: rgb(193, 146, 27);
+    color: rgb(148, 115, 32);
     font-family: 'Tangerine', serif;
-    font-size: 48px;
-    text-shadow: 1px 1px 1px #e7e77a;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px rgb(247, 209, 113);
+    margin: 15px 0 10px 0;
 }
 
-table{
-    margin-right: auto;
+
+.header table{
     margin-left: auto;
+    margin-right: auto;
 }
 
-td{
+.header1 {
+    padding: 1px 0 1px 0;
+    background-image: linear-gradient(rgb(245, 243, 243), rgb(151, 151, 144));   
+}
+
+.header1 td{
+    padding: 0 20px 0 20px;
+    font-family: monospace;
+}
+
+.header1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.header1 a:hover{
+    text-decoration: none;
+    color: rgb(97, 14, 14);
+}
+
+.header2{
+    background-color: rgb(5, 17, 36);
+    padding: 1px 0 1px 0;
+}
+
+.header2 td{    
+    padding: 0 20px 10px 20px;  
+}
+
+.header2 i{    
+    font-size: 12px;
+}
+
+
+<!--DROPDOWN-->
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {    
     margin: auto;
     padding-left: 15px;
     font-size: 11px;
-
+    text-decoration: none;
+    color: #f0f0c3;
 }
-.header2.i{    
-    font-size: 12px;
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f3f3f3;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(199, 171, 171, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(75, 74, 74);
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    font-size: 11px;
+  }
+  
+.dropdown-content a:hover {
+    background-color:rgb(15, 13, 34);
+    color: #f3f3f3;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.dropdown:hover .dropbtn {
+    color: rgb(140, 111, 38);
+}
+
+aside{
+    float: right;
+}
+
+#btn{
+    
+    margin: 30px 10px 0 0;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #333331;
 }
