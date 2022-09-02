@@ -1,0 +1,9 @@
+.footer{
+    background-color: rgb(5, 17, 36);
+}
+
+#flogo{
+    width: 10px;
+    height: auto;
+    float: right;
+}
