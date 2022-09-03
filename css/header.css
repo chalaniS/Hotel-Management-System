@@ -2,6 +2,10 @@ body{
     margin: 0;
 }
 
+.white{
+    color: #f0f0c3;
+}
+
 #hName{
     text-align: center;
     color: rgb(148, 115, 32);

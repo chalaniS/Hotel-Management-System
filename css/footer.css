@@ -1,9 +1,44 @@
-.footer{
+.footer1{
     background-color: rgb(5, 17, 36);
+    margin: 0;
+    padding: 0;
 }
 
-#flogo{
-    width: 10px;
-    height: auto;
-    float: right;
+#fLogo{
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 400px;
+    padding: 30px 0 10px 0;
+    
 }
+
+.SM{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 40px;
+    margin: 0;
+}
+
+.t1, .sm-table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+.t1 td{
+    padding: 0 20px 0 20px;
+}
+
+.sm-table td{
+    font-size: 20px;
+    padding: 0 10px 0 10px;
+}
+
+.footer2{
+    background-color: rgb(5, 28, 66);
+    margin: 0;
+    padding: 0;
+}
+
+
