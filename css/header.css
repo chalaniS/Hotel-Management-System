@@ -26,6 +26,32 @@ body{
     background-image: linear-gradient(rgb(245, 243, 243), rgb(151, 151, 144));   
 }
 
+#btnAside{
+    float: right;
+    margin: 10px 10px 0 0;
+}
+
+/* Button style */
+#btnAside button {
+    background: rgb(197, 153, 41);   
+    border-radius: 20px;       
+    color: #14053b;
+    cursor: pointer;    
+    font-weight: 800;
+    line-height: 10px;
+    padding: 10px 12px;
+    text-align: center;  
+    border: 1px solid rgb(197, 153, 41);
+    
+  }
+  
+  #btnAside button:hover,
+  #btnAside button:active {
+    border: 1px solid rgb(197, 153, 41);    
+    color: rgb(197, 153, 41);
+    background-color: initial;
+  }
+  
 .header1 td{
     padding: 0 20px 0 20px;
     font-family: monospace;
@@ -78,7 +104,7 @@ body{
     z-index: 1;
   }
   
-  .dropdown-content a {
+.dropdown-content a {
     color: rgb(75, 74, 74);
     padding: 10px;
     text-decoration: none;
@@ -99,14 +125,5 @@ body{
     color: rgb(140, 111, 38);
 }
 
-aside{
-    float: right;
-}
 
-#btn{
-    
-    margin: 30px 10px 0 0;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 20px;
-    color: #333331;
-}
+
