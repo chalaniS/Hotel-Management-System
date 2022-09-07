@@ -1,44 +1,225 @@
-.footer1{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@200&display=swap');
+/* inside footer  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    height: auto;
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+    body{
+      zoom: 80%;
+      overflow-x: hidden;
+      font-weight: 900;
+    }
+}
+
+
+footer{
+    position:sticky;
+    top: 120%;
+    bottom: 0px;
+    padding-bottom: 25px;
     background-color: rgb(5, 17, 36);
-    margin: 0;
-    padding: 0;
 }
 
-#fLogo{
-    display: block;
-    margin: 0 auto 20px auto;
+hr{
+    background-color: #c8d6e5;
+    position: absolute;
+    bottom: 70px;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.row1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.column{
+    height:280px;
     width: 400px;
-    padding: 30px 0 10px 0;
-    
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.SM{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+.rows{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.mail-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.mail-wrapper > input{
+    width: 250px;
+    height: 30px;
+    border-style: none;
+    border-bottom: 2px solid rgb(215, 194, 139);
+    margin: 0 15px;
+    outline: none;
+    padding:25px 20px;
+    font-size: 18px;
+    color: rgb(215, 194, 139);
+    background-color: transparent;
+}
+
+.mail-wrapper > input::placeholder{
+    color: rgb(215, 194, 139);
+    opacity: 0.9;
+}
+
+.mail-wrapper > i{
+    font-size: 30px;
+    color: rgb(215, 194, 139);
+    margin:10px 0 0 10px;
+    transition: .4s all ease-in;
+}
+
+.mail-wrapper > i:hover{
+    color: rgb(197, 153, 41);
+    cursor: pointer;
+}
+
+span{
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding: 0 10px 3px 10px;
+    margin-bottom: 15px;
+    color: rgb(215, 194, 139);
+    user-select: none;
+    /* border-bottom: 2px solid #c8d6e5; */
+}
+
+.column > .rows > a > p{
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 10px;
+    color: rgb(215, 194, 139);
+    opacity: 0.9;
+    font-weight: 700;
+    user-select: none;
     text-align: center;
-    font-size: 10px;
-    padding-top: 40px;
-    margin: 0;
+    transition: .4s all ease;
 }
 
-.t1, .sm-table{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
+.column > .rows > a > p:hover{
+    font-weight: 500;
+    opacity: 1;
+    cursor: pointer;
 }
 
-.t1 td{
-    padding: 0 20px 0 20px;
+.row2 > p{
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color: rgb(197, 153, 41);
+    opacity: 0.9;
+    font-weight: 700;
+    text-align: center;
+    user-select: none;
+    transition: .4s all ease;
+    margin-top: 24px;
+    user-select: none;
 }
 
-.sm-table td{
-    font-size: 20px;
-    padding: 0 10px 0 10px;
+.row2 > p:hover{
+    cursor: auto;
 }
 
-.footer2{
-    background-color: rgb(5, 28, 66);
-    margin: 0;
-    padding: 0;
+#c3{
+    margin-right: 50px;
 }
 
+#c1{
+    margin-left: 50px;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#c1 > .rows > .logo{
+    height: 150px;
+    width: 300px;
+    background-image: url("../src/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.slogan{
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: rgb(215, 194, 139);
+    text-transform: none;
+    opacity: 0.8;
+    font-weight: 700;
+    user-select: none;
+    transition: .4s all ease;
+    margin: 10px;
+    text-align: center;
+    text-justify: inter-word;
+}
+
+.slogan:hover{
+    margin-top: 20px;
+    cursor: auto;
+}
+
+#c4{
+    margin-right: 50px;
+}
+
+#c4 > .rows >.social-bar{
+    display: flex;
+    /* justify-content: center; */
+}
+
+#c4 > .rows > .social-bar > a > i{
+    font-size: 40px;
+    color: rgb(215, 194, 139);
+    margin: 15px;
+    transition: .2s all ease-in;
+}
+
+#c4 > .rows > .social-bar > a:hover > i
+{
+    color: rgb(197, 153, 41);
+    background-size: 200% 100%;
+    background-position:left bottom;
+    transform: translateY(-5px);
+}
 

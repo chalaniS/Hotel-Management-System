@@ -1,5 +1,6 @@
-body{
+header{
     margin: 0;
+    position: fixed;
 }
 
 .white{
@@ -16,7 +17,7 @@ body{
 }
 
 
-.header table{
+header table{
     margin-left: auto;
     margin-right: auto;
 }
