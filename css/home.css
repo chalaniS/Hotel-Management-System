@@ -53,7 +53,7 @@ body {
 .dot {
   height: 10px;
   width: 10px;
-  margin: 0 1px;
+  margin: 0 1px 11px 0;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -135,11 +135,31 @@ availability checker */
 
 .halls button{
   padding: 15px 30px 15px 30px; 
-  background-color: rgb(121, 72, 7);  
-  color: wheat;
+  background-color: rgb(131, 78, 8);  
+  color: rgb(255, 255, 255);
   margin: 0 50px 0 50px;
   border: hidden;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
+  /* border-top-left-radius: 25px;
+  border-top-right-radius: 25px; */
+  border-radius: 25px;
 }
 
+.halls button:hover{
+  background-color: rgb(74, 44, 6);
+}
+
+.hall-Content{
+  background-color: rgb(131, 78, 8);
+  text-align: center;
+  padding: 10px ;
+  border-radius: 20px;
+  margin:   10px
+}
+
+#hallImage{
+  width: 800px;
+}
+
+#description{
+  color: rgb(255, 255, 255);
+}

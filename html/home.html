@@ -52,10 +52,21 @@
       </div>
       <script src="../js/home.js"></script>
     </div>
+    <script src="../js/halls.js"></script>
+
     <div class="halls">
-      <button>GRAND LAWN HALL</button>
-      <button>GRAND EGLE HALL</button>
-      <button>GRAND BALLROOM HALL</button>
+      <button id="hall" href="" onclick="showHallContent(1)">
+        GRAND LAWN HALL
+      </button>
+      <button id="hall" onclick="showHallContent(2)">GRAND EGLE HALL</button>
+      <button id="hall" onclick="showHallContent(3)">
+        GRAND BALLROOM HALL
+      </button>
+      <button id="hall" onclick="showHallContent(4)">OUTDOOR</button>
+    </div>
+    <div class="hall-Content">
+      <img id="hallImage" src="../src/hallImages/lawn.jpg" />
+      <div id="description"></div>
     </div>
   </body>
 </html>
