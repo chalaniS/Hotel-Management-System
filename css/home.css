@@ -3,8 +3,7 @@
 }
 body {
   font-family: Verdana, sans-serif;
-  margin: 0;
-  background-color: rgb(215, 201, 201);
+  margin: 0;  
 }
 .mySlides {display: none;}
 .mySlides img {
@@ -36,6 +35,7 @@ body {
 }
 
 #textSub{
+  color: rgb(128, 125, 125);
   font-size: 40px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -82,6 +82,13 @@ body {
 /* 
 availability checker */
 
+.checker{
+  background-image: url(../src/home1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .checker h4{
   text-align: center;
   color: rgb(197, 153, 41) ;
@@ -94,12 +101,45 @@ availability checker */
 }
 
 .checker td{
-  /* padding: 0 150px 0 150px; */
-  width: 500px;
+  padding: 0 25px 0 25px;
+  
 }
 
 .checker label{
-  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#hallNames, #date, #times{
+  padding-left: 15px;
+  height: 28px;
+  width: 200px;
+  border: hidden;
+  background-color: rgb(93, 88, 88);
+  color: rgb(248, 234, 205);
+  font-size: 15px;
+  font-weight:bolder;
+}
+
+#hallNames option, #times option{
+  color: rgb(255, 255, 255);
+  background-color: gray; 
+}
+
+/* hall description */
+
+.halls{
+  text-align: center;
+}
+
+.halls button{
+  padding: 15px 30px 15px 30px; 
+  background-color: rgb(121, 72, 7);  
+  color: wheat;
+  margin: 0 50px 0 50px;
+  border: hidden;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
 
